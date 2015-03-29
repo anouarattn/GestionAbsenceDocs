@@ -1,0 +1,1 @@
+INSERT INTO `projetabsencetest`.`typefiliere` (`id`, `nom`,`numberOfYears`) VALUES (NULL, 'cycle d''ingenieur','3'), (NULL, 'Master','2');

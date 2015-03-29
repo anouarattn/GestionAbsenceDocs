@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Table" id="9" x="160" y="192" text="Name,Last\nName,=. Age v,(w:30). Kids,Likes,(align:center). Actions&#xA;Peter,Severin,38,[x],{computer},[Edit] [View]&#xA;Henri,Severin,(bg:lightGreen).8,[],{train},[Edit] [View]&#xA;Olga,Severin,63,[x],{note},[Edit] [View]&#xA;[-] You can even&#xA;  [+] Make a&#xA;  [+] Tree table" measuredWidth="337" measuredHeight="170" alternative="#eeeeee">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="10" x="568" y="128" width="150" height="150"/>
+  <widgets xsi:type="model:VScrollbar" id="11" x="717" y="128" height="321" measuredWidth="17" measuredHeight="321"/>
+  <widgets xsi:type="model:Breadcrumbs" id="12" x="192" y="160" text="Home,Next Level,Next Level,Current Page" measuredWidth="283" measuredHeight="22">
+    <font/>
+    <items x="0" y="0" width="32" height="22" text="Home"/>
+    <items x="52" y="0" width="58" height="22" text="Next Level"/>
+    <items x="130" y="0" width="58" height="22" text="Next Level"/>
+    <items x="208" y="0" width="72" height="22" text="Current Page"/>
+  </widgets>
+  <widgets xsi:type="model:LinkBar" id="13" x="176" y="40" text="Home,Blog,Forum,About" measuredWidth="186" measuredHeight="22" selection="2">
+    <font/>
+    <items x="0" y="0" width="34" height="22" text="Home"/>
+    <items x="52" y="0" width="25" height="22" text="Blog"/>
+    <items link="dgsfg.screen" x="95" y="0" width="36" height="22" text="Forum"/>
+    <items x="149" y="0" width="36" height="22" text="About"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
